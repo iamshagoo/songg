@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+    <html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- ===== CSS ===== -->
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" />
+        <link rel="stylesheet" href="assets/sass/styles.scss">
+        <link rel="stylesheet" href="assets/css/galerie.css">
+        <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
+        <!-- ===== BOX ICONS ===== -->
+
+
+        <title>Portfolio responsive complete</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Florian Sitbon</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Accueil</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">À propos</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Compétences</a></li>
+                        <li class="nav__item"><a href="#portfolio" class="nav__link">Portfolio</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home" id="home">
+                <div class="home__container bd-grid">
+                <h1 class="home__title">
+                    <!-- <span>Hi</span><br>👋🏽 -->
+                </h1>
+
+                    <div class="home__scroll">
+                        <a href="#about" class="home__scroll-link"><img class="arrow" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAABTElEQVRoQ+2W6w3CMAyE7U1gMzoZbAabGEVKUVXyONe2UJH5SZPrfXcmgenkHz65f0qAXzeYDWQDxgRyhIwBmreHNiAit+KQmR9mpx2BMIBq/l7fu0RBhADszK/ZhUC4A3TMh0G4AkzMh0C4AYDm3SFcAJTmXSHMAAfNu0GYAAbmFyJaj9CP2cZ35ZnpdDoMMDJfznwRke3dw8w823PksjsEgBhpARSDyF4NiBoANdAD8IZQAaDmq8mvEdomq9EaNQIDiMiFiJ4NseaPcNTAqjGAuDLzCxklGKBTffcEQQC0mi0gFcDuhcPjDwXQaLoA1BdeZhVrAFBNNwBkNrUAiGYCaFLKBsC01KcQqFv+MgwvMlRnti4BegllA7PZqc9zhP52hMAJMC8LGyGzM1AgAcCgwpZlA2HRgsLZABhU2LJsICxaUDgbAIMKW/YGk7LEMbZ1oPsAAAAASUVORK5CYII=" alt="arrow"/>Scroll down</a>
+                    </div>
+                    
+                        <!-- <div class="glass__container bd-grid" data-aos="flip-down"
+                        data-aos-easing="ease-out-cubic"
+                        data-aos-duration="3000">
+                            <a href="assets/img/SITBON_FLORIAN_CV.pdf" target="blank" class="button--pulse">VOIR <br> MON CV</a>
+                        </div> -->
+                    
+
+                    <!-- <img src="assets/img/Memoji.png" alt="" class="home__img"> -->
+                </div>
+            </section>
+            
+            <!--===== ABOUT =====-->
+            <section class="about section" id="about">
+                <h2 class="section-title">À propos</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                                <img src="assets/img/Memoji.png" alt="memoji">
+                               </div>
+                           
+                    <!-- <div class="about__img">
+                     <img src="assets/img/Flo.jpg">
+                    </div> -->
+                    <label>
+                        <input type="checkbox"/>
+                        <div class="card">
+                            <div class="front">
+                
+                        <h2 class="about__subtitle">Salut c'est Florian Sitbon</h2>
+                        <span class="about__profession">Chef de projet digital junior</span>
+                        <p class="about__text">Je suis étudiant en première année d'un Bachelor Chef de projet digital à Digital Campus Paris et je recherche un stage qui me permettra de terminer celle-ci par une expérience professionnelle.   </p>
+                    </div>
+                    <div class="back">
+                        <h2 class="about__profession01">Bachelor Chef de Projet Digital <br> Formation en 3 ans</h2>
+                        <p class="about__text02">Apprentissage des fondamentaux en marketing et conception digitale : design, UI/UX, développement web, marketing digital, communication, vidéo et motion design.</p>
+                    </div>
+                </div>
+            </label>
+                        <div class="about__social">
+                            <a href="https://www.linkedin.com/in/florian-sitbon-2426521b7/" target="blank" class="about__social-icon"><i class="fab fa-linkedin"></i>
+                            <a href="https://www.behance.net/floriansitbon/projects" target="blank" class="about__social-icon"><i class="fab fa-behance"></i></a>
+                        </div>
+                    </div>
+                <!-- </div> -->
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Compétences</h2>
+                                    <div class="portfolio__container bd-grid">
+                    <!-- <div class="portfolio__img">
+                        <img src="assets/img/Sail.jpg" alt="">
+
+                        <div class="portfolio__link">
+                            <a href="https://www.behance.net/gallery/110508787/Affiche-Jordan-4-x-Off-White" target="blank" class="portfolio__link-name"><p class="date"> - 2020 - </p> <br> Jordan 4 x Off-White</a>
+                        </div>
+                    </div>
+                    <div class="portfolio__img">
+                        <img src="assets/img/Visage.jpg" alt="">
+
+                        <div class="portfolio__link">
+                            <a href="https://www.behance.net/gallery/110508923/Poster-surraliste-Nike" target="blank" class="portfolio__link-name"><p class="date"> - 2020 - </p> <br> Poster surraliste Nike</a>
+                        </div>
+                    </div>
+                    <div class="portfolio__img">
+                        <img src="assets/img/cars.jpg" alt="">
+
+                        <div class="portfolio__link">
+                            <a href="https://www.behance.net/gallery/110334515/Affiche-publicitaire-Aston-Martin" target="blank" class="portfolio__link-name"><p class="date"> - 2020 - </p> <br> Affiche publicitaire Aston Martin</a>
+                        </div>
+                    </div> -->
+                    <div class="portfolio__img">
+                        <img src="assets/img/code.png" alt="">
+
+                        <div class="portfolio__link">
+                           <p class="date"> Dévelopement </p> <br> HTML - CSS - JAVASCRIPT <br> JQUERY - BOOTSTRAP
+                        </div>
+                    </div> 
+                    <div class="portfolio__img">
+                        <img src="assets/img/graphic.png" alt="">
+
+                        <div class="portfolio__link">
+                           <p class="date">Design</p> <br> PHOTOSHOP - INDESIGN <br> ADOBE XD - ILLUSTRATOR
+                        </div>
+                    </div>
+                    <div class="portfolio__img">
+                        <img src="assets/img/film.png" alt="">
+
+                        <div class="portfolio__link">
+                            <p class="date"> Montage </p> PREMIERE PRO - AFTER EFFECT
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="center__button" >
+                    <a href="https://www.behance.net/floriansitbon" target="blank" class="portfolio__button">Voir mes réalisations</a>    
+                </div> -->
+            </section>
+                <!-- <div class="skills__container bd-grid">
+                    <div class="skills__box">
+                        <h3 class="skills__subtitle">Design</h3>
+                        <span class="skills__name">Photoshop</span>
+                        <span class="skills__name">Adobe XD</span>
+                        <span class="skills__name">Illustrator</span>
+                        <span class="skills__name">InDesign</span>
+                        <span class="skills__name">Premiere Pro</span>
+                        
+                        <h3 class="skills__subtitle">Development</h3>
+                        <span class="skills__name">Html</span>
+                        <span class="skills__name">Css</span>
+                        <span class="skills__name">Javascript</span>                      
+                    </div>
+
+                    <div class="skills__img">
+                        <img src="assets/img/skill.jpg" alt="">
+                    </div>
+                </div> -->
+
+            <!--===== PORTFOLIO =====-->
+           <section class="portfolio section" id="portfolio">
+                <h2 class="section-title">Portfolio</h2>
+
+<section class="gallery">
+	<div class="row">
+		<ul>
+			<a href="#" class="close"></a>
+			<li>
+				<a href="#item01">
+					<img src="assets/img/Sail.jpg" alt="">
+				</a>
+			</li>
+
+			<li>
+				<a href="#item02">
+					<img src="assets/img/Visage.jpg" alt="">
+				</a>
+            </li>
+            
+			<li>
+				<a href="#item03">
+					<img src="assets/img/cars.jpg" alt="">
+				</a>
+			</li>
+            
+			<li>
+				<a href="#item04">
+					<img src="assets/img/iphone.jpg" alt="">
+				</a>
+			</li>
+			<li>
+				<a class="image" href="#item05">
+					<img src="assets/img/coffee.png" alt="">
+				</a>
+			</li>
+			<li>
+				<a class="image" href="#item06">
+					<img src="assets/img/Malibu.jpg" alt="">
+				</a>
+			</li>
+			<li>
+				<a class="image" href="#item07">
+					<img src="assets/img/home_rental.png" alt="">
+				</a>
+			</li>
+			<li>
+				<a class="image" href="#item08">
+					<img src="assets/img/seed.png" alt="">
+				</a>
+			</li>
+		</ul>
+	</div> <!-- / row -->
+
+	<!-- Item 01 -->
+	<div id="item01" class="port">
+	
+		<div class="row">
+			<div class="description">
+				<h2>Item 01</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis libero erat. Integer ac purus est. Proin erat mi, pulvinar ut magna eget, consectetur auctor turpis.
+                    <br><br> <p class="photoshop"> Photoshop </p>
+			</div>
+
+				<img src="assets/img/Sail.jpg" alt="">
+			</div>
+		</div> <!-- / row -->
+
+	<!-- Item 02 -->
+	<div id="item02" class="port">
+	
+		<div class="row">
+			<div class="description">
+				<h2>Item 02</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis libero erat. Integer ac purus est. Proin erat mi, pulvinar ut magna eget, consectetur auctor turpis.
+                    <br><br> <p class="photoshop"> Photoshop </p>
+			</div>
+                <img src="assets/img/Visage.jpg" alt="">
+            </div>
+        </div> <!-- / row -->
+    
+        <!-- Item 03 -->
+	<div id="item03" class="port">
+	
+		<div class="row">
+			<div class="description">
+				<h2>Item 03</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis libero erat. Integer ac purus est. Proin erat mi, pulvinar ut magna eget, consectetur auctor turpis.
+                    <br><br> <p class="indesign"> InDesign </p>
+			</div>
+                <img src="assets/img/cars.jpg" alt="">
+            </div>
+        </div> <!-- / row -->
+    
+        <!-- Item 04 -->
+	<div id="item04" class="port">
+	
+		<div class="row">
+			<div class="description">
+				<h2>Item 04</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis libero erat. Integer ac purus est. Proin erat mi, pulvinar ut magna eget, consectetur auctor turpis.
+                    <br><br> <p class="adobexd"> Adobe XD </p>
+			</div>
+                <img src="assets/img/iphone.jpg" alt="">
+            </div>
+        </div> <!-- / row -->
+    
+        <!-- Item 05 -->
+	<div id="item05" class="port">
+	
+		<div class="row">
+			<div class="description">
+				<h2>Item 05</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis libero erat. Integer ac purus est. Proin erat mi, pulvinar ut magna eget, consectetur auctor turpis.
+                    <br><br> <p class="indesign"> InDesign </p> <p class="photoshop"> Photoshop </p>
+			</div>
+                <img src="assets/img/coffee.png" alt="">
+            </div>
+        </div> <!-- / row -->
+    
+        <!-- Item 06 -->
+	<div id="item06" class="port">
+	
+		<div class="row">
+			<div class="description">
+				<h2>Item 06</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis libero erat. Integer ac purus est. Proin erat mi, pulvinar ut magna eget, consectetur auctor turpis.
+                    <br><br> <p class="photoshop"> Photoshop </p>
+			</div>
+                <img src="assets/img/Malibu.jpg" alt="">
+            </div>
+        </div> <!-- / row -->
+    
+        <!-- Item 07 -->
+	<div id="item07" class="port">
+	
+		<div class="row">
+			<div class="description">
+				<h2>Item 07</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis libero erat. Integer ac purus est. Proin erat mi, pulvinar ut magna eget, consectetur auctor turpis.
+                    <br><br> <p class="adobexd"> Adobe XD </p>
+			</div>
+                <img src="assets/img/home_rental.png" alt="">
+            </div>
+        </div> <!-- / row -->
+    
+        <!-- Item 08 -->
+	<div id="item08" class="port">
+	
+		<div class="row">
+			<div class="description">
+				<h2>Item 08</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis libero erat. Integer ac purus est. Proin erat mi, pulvinar ut magna eget, consectetur auctor turpis.
+                    <br><br> <p class="adobexd"> Adobe XD </p>
+			</div>
+                <img src="assets/img/seed.png" alt="">
+            </div>
+        </div> <!-- / row -->
+
+
+
+</section> <!-- / projects -->
+<!-- partial -->
+
+
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
+
+                <div class="contact__container bd-grid">
+                    <div class="contact__info">
+                        <h3 class="contact__subtitle">EMAIL</h3>
+                        <span class="contact__text">florian.sitbon6@gmail.com</span>
+
+                        <h3 class="contact__subtitle">TELEPHONE</h3>
+                        <span class="contact__text">+33 7 82 58 79 28</span>
+
+                    </div>
+
+                    <form action="mailto:florian.sitbon6@gmail.com" class="contact__form">
+                        <div class="contact__inputs">
+                            <input type="text" placeholder="email" class="contact__input">
+                        </div>
+
+                    <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+                        
+                    <div class="frame">
+                        <input type="checkbox" id="cb">
+                        <label for="cb" class="button reset">Click</label>
+                        <label for="cb" class="button">Send mail</label>
+                        <div class="circle"></div>
+                        <div class="circle-outer"></div>
+                        <svg class="icon mail">
+                            <polyline points="119,1 119,69 1,69 1,1"></polyline>
+                            <polyline points="119,1 60,45 1,1 119,1"></polyline>
+                        </svg>
+                        <svg class="icon plane">
+                            <polyline points="119,1 1,59 106,80 119,1"></polyline>
+                            <polyline points="119,1 40,67 43,105 69,73"></polyline>
+                        </svg>
+                    </div>
+
+                        <!-- <input type="submit" value="Envoyer" class="contact__button"> -->
+                    </form>
+                </div>
+            </section>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer section">
+            <div class="footer__container bd-grid">
+                <div class="footer__data">
+                    <h2 class="footer__title">FLORIAN SITBON</h2>
+                    <p class="footer__text">Copyright © Florian Sitbon | 2021 |<br>Merci d'avoir regardé mon portfolio !</p>
+                </div>
+
+                <div class="footer__data">
+                    <h2 class="footer__title">EXPLORER</h2>
+                    <ul>
+                        <li><a href="#home" class="footer__link">Accueil</a></li>
+                        <li><a href="#about" class="footer__link">A Propos</a></li>
+                        <li><a href="#skills" class="footer__link">Competences</a></li>
+                        <li><a href="#portfolio" class="footer__link">Portfolio</a></li>
+                        <li><a href="#Contact" class="footer__link">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer__data">
+                    <h2 class="footer__title">FOLLOW</h2>
+                    <a href="https://www.linkedin.com/in/florian-sitbon-2426521b7/" class="footer__social"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.behance.net/floriansitbon/projects" class="footer__social"><i class="fab fa-behance"></i></a>
+                    <a href="#" class="footer__social"><i class='bx bxl-twitter' ></i></a>
+                </div>
+
+
+        <!--===== FONT AWESOME =====-->
+        <script src="https://kit.fontawesome.com/6f17da5668.js" crossorigin="anonymous"></script>
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <!-- <script src="assets/js/galerie.js"></script> -->
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+        <script  src="script.js"></script>
+        <!-- <script src="assets/js/main.js"></script> -->
+        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous"></script> -->
+        <script>
+            AOS.init();
+        </script>
+    </body>
+</html>
